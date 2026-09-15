@@ -1,0 +1,7 @@
+{
+  "fork_from_checkpoint": "ckpt_step_000010",
+  "fork_step": 10,
+  "original_branch": "main",
+  "new_branch": "fork_10",
+  "divergence_point": 11
+}

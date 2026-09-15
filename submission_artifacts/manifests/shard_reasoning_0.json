@@ -1,0 +1,111 @@
+{
+  "shard_id": "shard_reasoning_0",
+  "tokenizer_hash": "bb804b900d31e0511080e5e0a0379e19b7845922818416ebbe56a762b52d9bb0",
+  "documents": [
+    {
+      "doc_id": "9bc630fd1dcbd869",
+      "token_start": 0,
+      "token_end": 31,
+      "token_count": 31,
+      "source": "local-open-web-math",
+      "content_hash": "7e6eec9ba968b4f362093d26418c28268a910d80a0ee5717ea19185ef2ee8c90"
+    },
+    {
+      "doc_id": "7b3ea54c28f9b4e8",
+      "token_start": 31,
+      "token_end": 62,
+      "token_count": 31,
+      "source": "local-open-web-math",
+      "content_hash": "e46f2fb6f6c8516710857e3ee38fd02a39f7e9beacd5447c7c31b90d4861a978"
+    },
+    {
+      "doc_id": "ba05d2236988241e",
+      "token_start": 62,
+      "token_end": 93,
+      "token_count": 31,
+      "source": "local-open-web-math",
+      "content_hash": "1ff340603bc8d21933084c3065bda8b89bab2e5021e89628b5e5c270317638c0"
+    },
+    {
+      "doc_id": "bf88e88a18904caf",
+      "token_start": 93,
+      "token_end": 124,
+      "token_count": 31,
+      "source": "local-open-web-math",
+      "content_hash": "3a819ccc06004b8b1e80063ace574e87bf7c087c7b2e547cb84f7c43335d8ebe"
+    },
+    {
+      "doc_id": "6ab4d84af066eb37",
+      "token_start": 124,
+      "token_end": 155,
+      "token_count": 31,
+      "source": "local-open-web-math",
+      "content_hash": "a9d5442c78bcf6b3484362aa401b1839b6bd18aaddc2f2b4dc3ff0b42d73222b"
+    },
+    {
+      "doc_id": "d3826a59b78505bf",
+      "token_start": 155,
+      "token_end": 173,
+      "token_count": 18,
+      "source": "local-open-web-math",
+      "content_hash": "cc39e9fd86f0b3aed64543411609e3576ae5b49f7bd330d47577112e13cb29b3"
+    },
+    {
+      "doc_id": "992836cc09d23105",
+      "token_start": 173,
+      "token_end": 189,
+      "token_count": 16,
+      "source": "local-open-web-math",
+      "content_hash": "288ba60edce009175dbf0ae44a8b3894572404763fac909e2ebafbebc45d2cfa"
+    },
+    {
+      "doc_id": "281da72bc20fda03",
+      "token_start": 189,
+      "token_end": 221,
+      "token_count": 32,
+      "source": "local-open-web-math",
+      "content_hash": "43a43e50cbb7a09abc67cedc22a1fed0d4140f734eb7e217df4d2a3dca76dd85"
+    },
+    {
+      "doc_id": "064980801d6d5f52",
+      "token_start": 221,
+      "token_end": 253,
+      "token_count": 32,
+      "source": "local-open-web-math",
+      "content_hash": "4f63645eb11418d0a61a10b3d916934944ca484caea20a32e6d60fe5b50026ba"
+    },
+    {
+      "doc_id": "5f43f375f3a017d1",
+      "token_start": 253,
+      "token_end": 284,
+      "token_count": 31,
+      "source": "local-open-web-math",
+      "content_hash": "fae345a5afdb4a4fe132e8fc61f5967da59cd0a669a232ac57ea018100beedb2"
+    },
+    {
+      "doc_id": "78c8ca192540a9c3",
+      "token_start": 284,
+      "token_end": 315,
+      "token_count": 31,
+      "source": "local-open-web-math",
+      "content_hash": "3d9a4d43bc89816607db16c130dbe2d222fc19a2a4687c5a838b97e367b5001c"
+    },
+    {
+      "doc_id": "a2be02e286d0b720",
+      "token_start": 315,
+      "token_end": 346,
+      "token_count": 31,
+      "source": "local-open-web-math",
+      "content_hash": "c4d2e54f31bd2b61499a46dc10ca804b7745932d682d1ec4673a6a35a3f21341"
+    }
+  ],
+  "total_tokens": 346,
+  "lane": "reasoning",
+  "content_hash": "239340f306d860f27d560e8a720fbfe76732f86b4165602da49ec617be4af072",
+  "bin_path": "C:\\Users\\Tharun\\Desktop\\Desktop\\Personal\\Github-Main\\building-the-dataset\\submission_artifacts\\shards\\shard_reasoning_0.bin",
+  "idx_path": "C:\\Users\\Tharun\\Desktop\\Desktop\\Personal\\Github-Main\\building-the-dataset\\submission_artifacts\\shards\\shard_reasoning_0.idx",
+  "is_eval": false,
+  "created_at": "2026-08-05T10:24:23.679143",
+  "cleaning_pipeline_hash": "clean_v1_dedup_v1",
+  "contamination_status": "clean"
+}

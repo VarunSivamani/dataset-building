@@ -1,0 +1,95 @@
+{
+  "shard_id": "shard_english_1",
+  "tokenizer_hash": "bb804b900d31e0511080e5e0a0379e19b7845922818416ebbe56a762b52d9bb0",
+  "documents": [
+    {
+      "doc_id": "86ab97dbda3bfa8b",
+      "token_start": 0,
+      "token_end": 20,
+      "token_count": 20,
+      "source": "local-fineweb-edu",
+      "content_hash": "81d40ee36176a550875ee8b3a585b59c1698f67f01026678d3008a0d1f7cb7fb"
+    },
+    {
+      "doc_id": "27dbcbbba4d2d66f",
+      "token_start": 20,
+      "token_end": 33,
+      "token_count": 13,
+      "source": "local-fineweb-edu",
+      "content_hash": "c73e4441008d59927462b533c0fe3535d3f18751bdbe99a4fe566b460cf197e4"
+    },
+    {
+      "doc_id": "84aa2b9c6704b961",
+      "token_start": 33,
+      "token_end": 51,
+      "token_count": 18,
+      "source": "local-fineweb-edu",
+      "content_hash": "d4998e483c97535c217ec74eb63e6207d83d2f3c2aa499e6908f40d9adf2424d"
+    },
+    {
+      "doc_id": "17d6b9b0137ca44f",
+      "token_start": 51,
+      "token_end": 71,
+      "token_count": 20,
+      "source": "local-fineweb-edu",
+      "content_hash": "dab09b4e1aaa80304d7bdc9918bbf7990c993b4bc1c88f30093c51fd64c773a7"
+    },
+    {
+      "doc_id": "16a21ad6e5241efe",
+      "token_start": 71,
+      "token_end": 87,
+      "token_count": 16,
+      "source": "local-fineweb-edu",
+      "content_hash": "9f16c8064e555572c0709a65c57296ebe7abc0c2f7e7aef2c240bda4e50c04d9"
+    },
+    {
+      "doc_id": "fcab810b2d903fc9",
+      "token_start": 87,
+      "token_end": 106,
+      "token_count": 19,
+      "source": "local-fineweb-edu",
+      "content_hash": "0ba28deafacf923c490b88ed74de23960eedde49164bb7b3b13e966836797ebe"
+    },
+    {
+      "doc_id": "ea71b03bca763c92",
+      "token_start": 106,
+      "token_end": 130,
+      "token_count": 24,
+      "source": "local-fineweb-edu",
+      "content_hash": "87733c16ad3466c0c79db54627af7731700a1c7c9373f37dd128ec773f00b188"
+    },
+    {
+      "doc_id": "b9a8a523131635a6",
+      "token_start": 130,
+      "token_end": 146,
+      "token_count": 16,
+      "source": "local-fineweb-edu",
+      "content_hash": "a17fce226ba5fb038503b8c863d32635d2107130231b62a91f12d7d29797c49e"
+    },
+    {
+      "doc_id": "853eb8d4440099bb",
+      "token_start": 146,
+      "token_end": 163,
+      "token_count": 17,
+      "source": "local-fineweb-edu",
+      "content_hash": "e3b8097e145a59e4aac5ed682a4071c0e391c4fad8f0a40aa934bd4682c973a2"
+    },
+    {
+      "doc_id": "62bf7ea1c7b8a69b",
+      "token_start": 163,
+      "token_end": 182,
+      "token_count": 19,
+      "source": "local-fineweb-edu",
+      "content_hash": "4fe54160b8b5aae08ee260d51a5267d37ecb3955b7f3d44a00e0e5e1d70551d2"
+    }
+  ],
+  "total_tokens": 182,
+  "lane": "english",
+  "content_hash": "18fcb75ccafe9371372d4814baef1b98199dad75dd41fe26f3ab5ebb17f65b69",
+  "bin_path": "C:\\Users\\Tharun\\Desktop\\Desktop\\Personal\\Github-Main\\building-the-dataset\\submission_artifacts\\shards\\shard_english_1.bin",
+  "idx_path": "C:\\Users\\Tharun\\Desktop\\Desktop\\Personal\\Github-Main\\building-the-dataset\\submission_artifacts\\shards\\shard_english_1.idx",
+  "is_eval": false,
+  "created_at": "2026-08-05T10:24:23.781096",
+  "cleaning_pipeline_hash": "clean_v1_dedup_v1",
+  "contamination_status": "clean"
+}

@@ -1,0 +1,95 @@
+{
+  "shard_id": "shard_eval_0",
+  "tokenizer_hash": "bb804b900d31e0511080e5e0a0379e19b7845922818416ebbe56a762b52d9bb0",
+  "documents": [
+    {
+      "doc_id": "6d0ed231e7cf3e92",
+      "token_start": 0,
+      "token_end": 40,
+      "token_count": 40,
+      "source": "local-starcoder-python",
+      "content_hash": "58067af032dc1ee53e0a5b6aa8faf85a379899cac327c5bd972ef34cf3b37143"
+    },
+    {
+      "doc_id": "941d59c22b9a8a1a",
+      "token_start": 40,
+      "token_end": 71,
+      "token_count": 31,
+      "source": "local-open-web-math",
+      "content_hash": "5cf331b5c967692dc808ebe24e516411b4a6bd095b8d623e427882be01173702"
+    },
+    {
+      "doc_id": "e1a9a245d8cd08a0",
+      "token_start": 71,
+      "token_end": 149,
+      "token_count": 78,
+      "source": "local-indic-sangraha",
+      "content_hash": "4d76dde3e67ac9a3b1dd19c5eae88757ccb5558655f3411e79d6bf0aa042dbda"
+    },
+    {
+      "doc_id": "9882b54db8519c2d",
+      "token_start": 149,
+      "token_end": 180,
+      "token_count": 31,
+      "source": "local-open-web-math",
+      "content_hash": "e492ade58ff8ec08619aaaf92e1bb351ac0f03c12900117e2ee74ec1bef3008d"
+    },
+    {
+      "doc_id": "d1490045314590f3",
+      "token_start": 180,
+      "token_end": 198,
+      "token_count": 18,
+      "source": "local-fineweb-edu",
+      "content_hash": "520654ba97badf6e9ab33a11fb2812d3e3e786265691fe4cc06fb752f1660753"
+    },
+    {
+      "doc_id": "28401caf46042af1",
+      "token_start": 198,
+      "token_end": 216,
+      "token_count": 18,
+      "source": "local-starcoder-python",
+      "content_hash": "9e1310f929cd0b5260fd2de30eea4d4d03c239b4a14ceee5297cbb1e71a24314"
+    },
+    {
+      "doc_id": "cf0b3ee95caae9bb",
+      "token_start": 216,
+      "token_end": 234,
+      "token_count": 18,
+      "source": "local-fineweb-edu",
+      "content_hash": "60badf0c403b8ddff6f8384a66735065a516d8d3635a55e7814d6a928dad5389"
+    },
+    {
+      "doc_id": "cfc986bfb3b9e316",
+      "token_start": 234,
+      "token_end": 248,
+      "token_count": 14,
+      "source": "local-fineweb-edu",
+      "content_hash": "ae58e318eb9789f6b214f670e504f2ff8a3fbdd25570f9388268e8d07e53d014"
+    },
+    {
+      "doc_id": "50a4fa3e3350f81b",
+      "token_start": 248,
+      "token_end": 274,
+      "token_count": 26,
+      "source": "local-open-web-math",
+      "content_hash": "c6c4df3b2651950a7a3a7ca6cda28014296b04a8124939865dfcdb4267fac42c"
+    },
+    {
+      "doc_id": "ec3419a8dea0d87c",
+      "token_start": 274,
+      "token_end": 352,
+      "token_count": 78,
+      "source": "local-indic-sangraha",
+      "content_hash": "98f5d37731587c6dff628bb47139dfa63fa487e6f6b1172d7a2232c5b10ad537"
+    }
+  ],
+  "total_tokens": 352,
+  "lane": "eval",
+  "content_hash": "9fefde2d6edd42c245bdfd93df3a2efd95218067e98e433be6d35fd0aab6f82a",
+  "bin_path": "C:\\Users\\Tharun\\Desktop\\Desktop\\Personal\\Github-Main\\building-the-dataset\\submission_artifacts\\shards\\shard_eval_0.bin",
+  "idx_path": "C:\\Users\\Tharun\\Desktop\\Desktop\\Personal\\Github-Main\\building-the-dataset\\submission_artifacts\\shards\\shard_eval_0.idx",
+  "is_eval": true,
+  "created_at": "2026-08-05T10:24:23.805704",
+  "cleaning_pipeline_hash": "clean_v1_dedup_v1",
+  "contamination_status": "clean"
+}

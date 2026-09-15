@@ -1,0 +1,103 @@
+{
+  "shard_id": "shard_indic_1",
+  "tokenizer_hash": "bb804b900d31e0511080e5e0a0379e19b7845922818416ebbe56a762b52d9bb0",
+  "documents": [
+    {
+      "doc_id": "55951505e69ffcc5",
+      "token_start": 0,
+      "token_end": 78,
+      "token_count": 78,
+      "source": "local-indic-sangraha",
+      "content_hash": "011e866b074565e6f6e7365796aaeb668904f136d13bb51e11a983fba2672531"
+    },
+    {
+      "doc_id": "53411f673a7a0f7a",
+      "token_start": 78,
+      "token_end": 144,
+      "token_count": 66,
+      "source": "local-indic-sangraha",
+      "content_hash": "63540be5797eb5620ed2fc2fdfbe932931b073bd348ad2d71a845c7cfb4fa4e7"
+    },
+    {
+      "doc_id": "756d616b21613e09",
+      "token_start": 144,
+      "token_end": 222,
+      "token_count": 78,
+      "source": "local-indic-sangraha",
+      "content_hash": "5987f931f46fc16b62bd925ad3e5aef633b641a672c5717ca4d328869eaeed71"
+    },
+    {
+      "doc_id": "1cc6cad1c5bc1e3d",
+      "token_start": 222,
+      "token_end": 300,
+      "token_count": 78,
+      "source": "local-indic-sangraha",
+      "content_hash": "43ab97e6d0db412d5fa0b67e1e5c16ba7e9051944eb7046883a630f01245897c"
+    },
+    {
+      "doc_id": "dd3fc2151435b7c4",
+      "token_start": 300,
+      "token_end": 378,
+      "token_count": 78,
+      "source": "local-indic-sangraha",
+      "content_hash": "d0c1c015b496bd97b5a7dd0c51f4628eaf3b8cfb7d3b7f48c0e25cb5d8aa4c0c"
+    },
+    {
+      "doc_id": "e9e22fc814f1f08f",
+      "token_start": 378,
+      "token_end": 456,
+      "token_count": 78,
+      "source": "local-indic-sangraha",
+      "content_hash": "b59ab74def8ee17594c8f4ef4589839af28044b3f74be4e41f8bf96eff44ddd1"
+    },
+    {
+      "doc_id": "abe863333838ca2a",
+      "token_start": 456,
+      "token_end": 536,
+      "token_count": 80,
+      "source": "local-indic-sangraha",
+      "content_hash": "38df9857b8f9dccf582b782c5bfbd43237ac8962e3c3e25a1f35d042e801683b"
+    },
+    {
+      "doc_id": "7380cc12ec53062d",
+      "token_start": 536,
+      "token_end": 602,
+      "token_count": 66,
+      "source": "local-indic-sangraha",
+      "content_hash": "871552d67a0fc0f153c5761b15b41a0945588d9d6e7cc5f0b789bfa647adf2f7"
+    },
+    {
+      "doc_id": "ab178fd16c8080e8",
+      "token_start": 602,
+      "token_end": 680,
+      "token_count": 78,
+      "source": "local-indic-sangraha",
+      "content_hash": "e6b4b2dda42c70a081b391635907db311598b02df7b440e71aeb2c69438a6866"
+    },
+    {
+      "doc_id": "5ecef59ce5177950",
+      "token_start": 680,
+      "token_end": 758,
+      "token_count": 78,
+      "source": "local-indic-sangraha",
+      "content_hash": "0fa4febe45851b60034609192639fb466dcbbc40f36b8fdf1c851e5ac500a9f8"
+    },
+    {
+      "doc_id": "e33fafa4ebed2031",
+      "token_start": 758,
+      "token_end": 843,
+      "token_count": 85,
+      "source": "local-indic-sangraha",
+      "content_hash": "dd8688f51ed996900aae729bd49e5e267397f500382796082af3ad1932937536"
+    }
+  ],
+  "total_tokens": 843,
+  "lane": "indic",
+  "content_hash": "ce806988ff7476dd61c080e044aed9866ab7178bd4a089394816ddcca10af46e",
+  "bin_path": "C:\\Users\\Tharun\\Desktop\\Desktop\\Personal\\Github-Main\\building-the-dataset\\submission_artifacts\\shards\\shard_indic_1.bin",
+  "idx_path": "C:\\Users\\Tharun\\Desktop\\Desktop\\Personal\\Github-Main\\building-the-dataset\\submission_artifacts\\shards\\shard_indic_1.idx",
+  "is_eval": false,
+  "created_at": "2026-08-05T10:24:23.744764",
+  "cleaning_pipeline_hash": "clean_v1_dedup_v1",
+  "contamination_status": "clean"
+}

@@ -1,0 +1,86 @@
+{
+  "requirements": {
+    "tokenizer_integrity": {
+      "passed": true,
+      "backend": "tiktoken",
+      "tokenizer_hash": "bb804b900d31e0511080e5e0a0379e19b7845922818416ebbe56a762b52d9bb0",
+      "artifact": "tokenizer/tokenizer.json",
+      "evidence_path": "manifests/"
+    },
+    "evaluation_firewall": {
+      "passed": true,
+      "blocked_count": 1,
+      "eval_shards": [
+        "shard_eval_0"
+      ],
+      "evidence_path": "manifests/admission.json"
+    },
+    "mixture_compliance": {
+      "passed": true,
+      "planned_floors": {
+        "code": 0.15,
+        "reasoning": 0.2,
+        "indic": 0.05,
+        "english": 0.4
+      },
+      "actual_fractions": {
+        "code": 0.2727272727272727,
+        "reasoning": 0.22727272727272727,
+        "indic": 0.09090909090909091,
+        "english": 0.4090909090909091
+      },
+      "violations": [],
+      "evidence_path": "manifests/schedule.jsonl"
+    },
+    "crash_recovery": {
+      "passed": true,
+      "expected_batch": "batch_000021",
+      "resumed_batch": "batch_000021",
+      "evidence_path": "evidence/resume_proof.json"
+    },
+    "replay": {
+      "passed": true,
+      "fields_checked": [
+        "batch_hash",
+        "input_ids",
+        "attention_mask",
+        "loss_mask",
+        "position_ids",
+        "doc_ids",
+        "token_spans",
+        "shard_ids"
+      ],
+      "samples_compared": 10,
+      "evidence_path": "evidence/replay_proof.json"
+    },
+    "packing_correctness": {
+      "passed": true,
+      "avg_efficiency": 0.83796875,
+      "multi_doc_packing": true,
+      "batches_created": 25,
+      "evidence_path": "ledgers/consumption.jsonl"
+    },
+    "opus_audit_trail": {
+      "passed": true,
+      "decisions_recorded": 35,
+      "evidence_path": "ledgers/opus_decisions.jsonl"
+    },
+    "learning_trace": {
+      "passed": true,
+      "entries": 35,
+      "evidence_path": "ledgers/learning.jsonl"
+    },
+    "throughput": {
+      "passed": true,
+      "tokens_per_second": 8727.669181051875,
+      "useful_tokens_per_second": 7233.9324969957315,
+      "evidence_path": "performance.json"
+    }
+  },
+  "timestamp": "2026-08-05T10:24:23.156833",
+  "summary": {
+    "total_requirements": 9,
+    "passed": 9,
+    "failed": 0
+  }
+}

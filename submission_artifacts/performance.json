@@ -1,0 +1,17 @@
+{
+  "total_time_seconds": 4.106480121612549,
+  "total_steps": 35,
+  "total_tokens_processed": 35840,
+  "loss_bearing_tokens": 29706,
+  "tokens_per_second": 8727.669181051875,
+  "useful_tokens_per_second": 7233.9324969957315,
+  "avg_packing_efficiency": 0.83796875,
+  "tokenizer_backend": "tiktoken",
+  "opus_stats": {
+    "accepted": 31,
+    "rejected": 0,
+    "deferred": 4
+  },
+  "initial_loss": 6.238323223443679,
+  "final_loss": 6.235292089033319
+}

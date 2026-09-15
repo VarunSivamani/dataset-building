@@ -1,0 +1,13 @@
+{
+  "backend": "tiktoken",
+  "name": "tiktoken/cl100k_base",
+  "seed": null,
+  "special_tokens": {
+    "bos": 100257,
+    "eos": 100257,
+    "pad": 0,
+    "unk": 100257
+  },
+  "tokenizer_sha256": "bb804b900d31e0511080e5e0a0379e19b7845922818416ebbe56a762b52d9bb0",
+  "vocab_size": 100277
+}

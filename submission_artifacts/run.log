@@ -1,0 +1,67 @@
+[2026-08-05T10:24:23.156833] [INFO] ============================================================
+[2026-08-05T10:24:23.158062] [INFO] Session 6: Training Data Execution System
+[2026-08-05T10:24:23.158667] [INFO] ============================================================
+[2026-08-05T10:24:23.159433] [INFO] Tokenizer backends: tiktoken=True, transformers=True
+[2026-08-05T10:24:23.160059] [INFO] Data mode: prefer_hf=False (local corpus always available)
+[2026-08-05T10:24:23.160685] [INFO] 
+[PHASE 1] Generating corpus...
+[2026-08-05T10:24:23.243695] [INFO] Generated 100 documents (train=90, eval=10)
+[2026-08-05T10:24:23.244332] [PASS] corpus_generated
+[2026-08-05T10:24:23.245069] [INFO] 
+[PHASE 2] Tokenizer + binary shards...
+[2026-08-05T10:24:23.618203] [INFO] Tokenizer backend=tiktoken name=tiktoken/cl100k_base
+[2026-08-05T10:24:23.618797] [INFO] Tokenizer hash: bb804b900d31e0511080e5e0...
+[2026-08-05T10:24:23.820352] [INFO] Created 9 binary shards (.bin/.idx mmap)
+[2026-08-05T10:24:23.820950] [PASS] shards_created
+[2026-08-05T10:24:23.822265] [PASS] manifests_validated
+[2026-08-05T10:24:23.822926] [PASS] tokenizer_hash_verified
+[2026-08-05T10:24:23.823557] [INFO] 
+[PHASE 3] Admission + eval firewall...
+[2026-08-05T10:24:23.826041] [INFO] Admitted=8 Blocked=1
+[2026-08-05T10:24:23.826692] [PASS] eval_shard_blocked
+[2026-08-05T10:24:23.827323] [PASS] evaluation_data_blocked
+[2026-08-05T10:24:23.828457] [INFO] 
+[PHASE 4] Compiling smooth curriculum mixture...
+[2026-08-05T10:24:23.832753] [INFO] Lane fractions: {'code': 0.2727272727272727, 'reasoning': 0.22727272727272727, 'indic': 0.09090909090909091, 'english': 0.4090909090909091}
+[2026-08-05T10:24:23.833338] [PASS] mixture_compiled
+[2026-08-05T10:24:23.834541] [INFO] 
+[PHASE 5] Training with Adam + multi-doc packing...
+[2026-08-05T10:24:23.881414] [INFO] Checkpoint saved: ckpt_step_000000 at step 0
+[2026-08-05T10:24:23.945811] [INFO] Step 0: loss=6.2383 pack_eff=63.28% stage=cold
+[2026-08-05T10:24:24.361854] [INFO] Step 5: loss=6.2358 pack_eff=63.28% stage=cold
+[2026-08-05T10:24:24.683916] [INFO] Checkpoint saved: ckpt_step_000010 at step 10
+[2026-08-05T10:24:24.781154] [INFO] Step 10: loss=6.2368 pack_eff=95.12% stage=reasoning-heavy
+[2026-08-05T10:24:25.291581] [INFO] Step 15: loss=6.2377 pack_eff=72.66% stage=reasoning-heavy
+[2026-08-05T10:24:25.778087] [INFO] Checkpoint saved: ckpt_step_000020 at step 20
+[2026-08-05T10:24:25.884732] [INFO] Step 20: loss=6.2349 pack_eff=72.66% stage=balanced
+[2026-08-05T10:24:26.291997] [PASS] batches_packed
+[2026-08-05T10:24:26.293058] [PASS] OPUS_decisions_recorded
+[2026-08-05T10:24:26.294060] [PASS] checkpoint_saved
+[2026-08-05T10:24:26.295061] [INFO] 
+[PHASE 6] Crash simulation...
+[2026-08-05T10:24:26.296060] [INFO] Crash at step 25; last ckpt=ckpt_step_000020
+[2026-08-05T10:24:26.297062] [PASS] crash_simulated
+[2026-08-05T10:24:26.322578] [INFO] 
+[PHASE 7] Resume with RNG + Adam restore...
+[2026-08-05T10:24:26.399488] [INFO] Checkpoint loaded: ckpt_step_000020 (RNG+Adam restored)
+[2026-08-05T10:24:27.172606] [PASS] resume_next_batch_matched
+[2026-08-05T10:24:27.173611] [PASS] run_resumed
+[2026-08-05T10:24:27.173611] [INFO] 
+[PHASE 8] Strong historical replay verification...
+[2026-08-05T10:24:27.217456] [PASS] replay_hash_matched
+[2026-08-05T10:24:27.218454] [PASS] replay_spans_masks_matched
+[2026-08-05T10:24:27.219964] [PASS] historical_stream_replayed
+[2026-08-05T10:24:27.220974] [INFO] 
+[PHASE 9] Branch fork...
+[2026-08-05T10:24:27.223988] [PASS] branch_forked
+[2026-08-05T10:24:27.224986] [INFO] 
+[PHASE 10] Ledgers + performance...
+[2026-08-05T10:24:27.259424] [PASS] performance_measured
+[2026-08-05T10:24:27.260422] [INFO] 
+[PHASE 11] Evidence bundle...
+[2026-08-05T10:24:27.264357] [PASS] audit_completed
+[2026-08-05T10:24:27.265547] [INFO] 
+============================================================
+[2026-08-05T10:24:27.265547] [INFO] EXECUTION COMPLETE
+[2026-08-05T10:24:27.266756] [INFO] Requirements passed: 9/9
+[2026-08-05T10:24:27.267758] [INFO] Artifacts: building-the-dataset/submission_artifacts

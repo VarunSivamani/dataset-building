@@ -1,0 +1,103 @@
+{
+  "shard_id": "shard_code_1",
+  "tokenizer_hash": "bb804b900d31e0511080e5e0a0379e19b7845922818416ebbe56a762b52d9bb0",
+  "documents": [
+    {
+      "doc_id": "d142fbf3eb257e4d",
+      "token_start": 0,
+      "token_end": 18,
+      "token_count": 18,
+      "source": "local-starcoder-python",
+      "content_hash": "46ad2af615c1170d3cc0837eff628893d5e255a10d4b7639a8793ae8a647c617"
+    },
+    {
+      "doc_id": "3e4dbe736a1e1d25",
+      "token_start": 18,
+      "token_end": 156,
+      "token_count": 138,
+      "source": "local-starcoder-python",
+      "content_hash": "dd207189f594ee9e5f33a512851781d6398e4b2265dad4427b3c91a56fa17334"
+    },
+    {
+      "doc_id": "989732acea9c89b9",
+      "token_start": 156,
+      "token_end": 209,
+      "token_count": 53,
+      "source": "local-starcoder-python",
+      "content_hash": "9fa4a2f88d413505d017e10d745b22b8de1701f4e2a6e8ad94c60edaa6f64154"
+    },
+    {
+      "doc_id": "f09957647366323f",
+      "token_start": 209,
+      "token_end": 227,
+      "token_count": 18,
+      "source": "local-starcoder-python",
+      "content_hash": "d27956b55edccbaf1c6a51675f7ebd662fc1e0db033da7a32674a0367d3b6afe"
+    },
+    {
+      "doc_id": "dbd6407e327131b0",
+      "token_start": 227,
+      "token_end": 299,
+      "token_count": 72,
+      "source": "local-starcoder-python",
+      "content_hash": "cb64aaa962abac32c87b0b8d39df5482bde32c70a6c776cb65ff03c070a37a1d"
+    },
+    {
+      "doc_id": "0e88bfe2a38d551d",
+      "token_start": 299,
+      "token_end": 332,
+      "token_count": 33,
+      "source": "local-starcoder-python",
+      "content_hash": "5c2a3ca4b1baf8764ad5648b6ef103e09189bcd4eeccf1c804e1b5db6755527a"
+    },
+    {
+      "doc_id": "ab2285938f22fd60",
+      "token_start": 332,
+      "token_end": 350,
+      "token_count": 18,
+      "source": "local-starcoder-python",
+      "content_hash": "33c8e7c892c35f0b79784b05c8fc5b2e5cddfb7c274b0616b4ab971c9fa5a3af"
+    },
+    {
+      "doc_id": "ceb04f424a8d2de7",
+      "token_start": 350,
+      "token_end": 368,
+      "token_count": 18,
+      "source": "local-starcoder-python",
+      "content_hash": "190c57bf568b78149cf42c876ad38e24921e90c7b2966c93baeb22152e6b6696"
+    },
+    {
+      "doc_id": "abc6579a315c181e",
+      "token_start": 368,
+      "token_end": 386,
+      "token_count": 18,
+      "source": "local-starcoder-python",
+      "content_hash": "ec52a35528af1c14308c38206ce01fbd8d5541ed0e8bbf675d981ba4139aee10"
+    },
+    {
+      "doc_id": "921c9ab04e8009aa",
+      "token_start": 386,
+      "token_end": 426,
+      "token_count": 40,
+      "source": "local-starcoder-python",
+      "content_hash": "c6b14939e01b7bc2161af329b65803572752d396c342d3b169d6a604868abb14"
+    },
+    {
+      "doc_id": "955e61dd079bf04c",
+      "token_start": 426,
+      "token_end": 444,
+      "token_count": 18,
+      "source": "local-starcoder-python",
+      "content_hash": "91b22d03aabaa0b76205bbb56c287b4b96c58fb0299831b5074c29a312cbcad4"
+    }
+  ],
+  "total_tokens": 444,
+  "lane": "code",
+  "content_hash": "dc6acc3d81663f1f122cb76abc0602b0878117db8cc336ef22861f6486d1c6df",
+  "bin_path": "C:\\Users\\Tharun\\Desktop\\Desktop\\Personal\\Github-Main\\building-the-dataset\\submission_artifacts\\shards\\shard_code_1.bin",
+  "idx_path": "C:\\Users\\Tharun\\Desktop\\Desktop\\Personal\\Github-Main\\building-the-dataset\\submission_artifacts\\shards\\shard_code_1.idx",
+  "is_eval": false,
+  "created_at": "2026-08-05T10:24:23.658551",
+  "cleaning_pipeline_hash": "clean_v1_dedup_v1",
+  "contamination_status": "clean"
+}

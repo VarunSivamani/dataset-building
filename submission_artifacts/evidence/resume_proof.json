@@ -1,0 +1,13 @@
+{
+  "checkpoint_step": 20,
+  "expected_next_batch_id": "batch_000021",
+  "resumed_batch_id": "batch_000021",
+  "match": true,
+  "rng_restored": true,
+  "optimizer_restored": true,
+  "optimizer_state_hash": "7f78a84b53caf3ab3be2c738e25b8775",
+  "evidence": {
+    "checkpoint_id": "ckpt_step_000020",
+    "ledger_offset": 20
+  }
+}

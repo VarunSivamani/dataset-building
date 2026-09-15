@@ -1,0 +1,182 @@
+[
+  {
+    "shard_id": "shard_code_0",
+    "checks": {
+      "tokenizer_hash": {
+        "passed": true,
+        "expected": "bb804b900d31e0511080e5e0a0379e19b7845922818416ebbe56a762b52d9bb0",
+        "actual": "bb804b900d31e0511080e5e0a0379e19b7845922818416ebbe56a762b52d9bb0"
+      },
+      "eval_firewall": {
+        "passed": true,
+        "is_eval": false,
+        "blocked": false
+      },
+      "contamination": {
+        "passed": true,
+        "status": "clean"
+      }
+    },
+    "admitted": true
+  },
+  {
+    "shard_id": "shard_code_1",
+    "checks": {
+      "tokenizer_hash": {
+        "passed": true,
+        "expected": "bb804b900d31e0511080e5e0a0379e19b7845922818416ebbe56a762b52d9bb0",
+        "actual": "bb804b900d31e0511080e5e0a0379e19b7845922818416ebbe56a762b52d9bb0"
+      },
+      "eval_firewall": {
+        "passed": true,
+        "is_eval": false,
+        "blocked": false
+      },
+      "contamination": {
+        "passed": true,
+        "status": "clean"
+      }
+    },
+    "admitted": true
+  },
+  {
+    "shard_id": "shard_reasoning_0",
+    "checks": {
+      "tokenizer_hash": {
+        "passed": true,
+        "expected": "bb804b900d31e0511080e5e0a0379e19b7845922818416ebbe56a762b52d9bb0",
+        "actual": "bb804b900d31e0511080e5e0a0379e19b7845922818416ebbe56a762b52d9bb0"
+      },
+      "eval_firewall": {
+        "passed": true,
+        "is_eval": false,
+        "blocked": false
+      },
+      "contamination": {
+        "passed": true,
+        "status": "clean"
+      }
+    },
+    "admitted": true
+  },
+  {
+    "shard_id": "shard_reasoning_1",
+    "checks": {
+      "tokenizer_hash": {
+        "passed": true,
+        "expected": "bb804b900d31e0511080e5e0a0379e19b7845922818416ebbe56a762b52d9bb0",
+        "actual": "bb804b900d31e0511080e5e0a0379e19b7845922818416ebbe56a762b52d9bb0"
+      },
+      "eval_firewall": {
+        "passed": true,
+        "is_eval": false,
+        "blocked": false
+      },
+      "contamination": {
+        "passed": true,
+        "status": "clean"
+      }
+    },
+    "admitted": true
+  },
+  {
+    "shard_id": "shard_indic_0",
+    "checks": {
+      "tokenizer_hash": {
+        "passed": true,
+        "expected": "bb804b900d31e0511080e5e0a0379e19b7845922818416ebbe56a762b52d9bb0",
+        "actual": "bb804b900d31e0511080e5e0a0379e19b7845922818416ebbe56a762b52d9bb0"
+      },
+      "eval_firewall": {
+        "passed": true,
+        "is_eval": false,
+        "blocked": false
+      },
+      "contamination": {
+        "passed": true,
+        "status": "clean"
+      }
+    },
+    "admitted": true
+  },
+  {
+    "shard_id": "shard_indic_1",
+    "checks": {
+      "tokenizer_hash": {
+        "passed": true,
+        "expected": "bb804b900d31e0511080e5e0a0379e19b7845922818416ebbe56a762b52d9bb0",
+        "actual": "bb804b900d31e0511080e5e0a0379e19b7845922818416ebbe56a762b52d9bb0"
+      },
+      "eval_firewall": {
+        "passed": true,
+        "is_eval": false,
+        "blocked": false
+      },
+      "contamination": {
+        "passed": true,
+        "status": "clean"
+      }
+    },
+    "admitted": true
+  },
+  {
+    "shard_id": "shard_english_0",
+    "checks": {
+      "tokenizer_hash": {
+        "passed": true,
+        "expected": "bb804b900d31e0511080e5e0a0379e19b7845922818416ebbe56a762b52d9bb0",
+        "actual": "bb804b900d31e0511080e5e0a0379e19b7845922818416ebbe56a762b52d9bb0"
+      },
+      "eval_firewall": {
+        "passed": true,
+        "is_eval": false,
+        "blocked": false
+      },
+      "contamination": {
+        "passed": true,
+        "status": "clean"
+      }
+    },
+    "admitted": true
+  },
+  {
+    "shard_id": "shard_english_1",
+    "checks": {
+      "tokenizer_hash": {
+        "passed": true,
+        "expected": "bb804b900d31e0511080e5e0a0379e19b7845922818416ebbe56a762b52d9bb0",
+        "actual": "bb804b900d31e0511080e5e0a0379e19b7845922818416ebbe56a762b52d9bb0"
+      },
+      "eval_firewall": {
+        "passed": true,
+        "is_eval": false,
+        "blocked": false
+      },
+      "contamination": {
+        "passed": true,
+        "status": "clean"
+      }
+    },
+    "admitted": true
+  },
+  {
+    "shard_id": "shard_eval_0",
+    "checks": {
+      "tokenizer_hash": {
+        "passed": true,
+        "expected": "bb804b900d31e0511080e5e0a0379e19b7845922818416ebbe56a762b52d9bb0",
+        "actual": "bb804b900d31e0511080e5e0a0379e19b7845922818416ebbe56a762b52d9bb0"
+      },
+      "eval_firewall": {
+        "passed": false,
+        "is_eval": true,
+        "blocked": true
+      },
+      "contamination": {
+        "passed": true,
+        "status": "clean"
+      }
+    },
+    "admitted": false
+  }
+]

@@ -1,0 +1,111 @@
+{
+  "shard_id": "shard_code_0",
+  "tokenizer_hash": "bb804b900d31e0511080e5e0a0379e19b7845922818416ebbe56a762b52d9bb0",
+  "documents": [
+    {
+      "doc_id": "35889f10c927385a",
+      "token_start": 0,
+      "token_end": 61,
+      "token_count": 61,
+      "source": "local-starcoder-python",
+      "content_hash": "69b7261672f57402420a71504818f5d9411cdb4b35ee533aac1e018e57febcf6"
+    },
+    {
+      "doc_id": "7236a13da497a7af",
+      "token_start": 61,
+      "token_end": 79,
+      "token_count": 18,
+      "source": "local-starcoder-python",
+      "content_hash": "bf0834e94969e5923c0f4bda3b428e6d8fc75e5260ff72db71e87c4cfb0a2199"
+    },
+    {
+      "doc_id": "6071483c76cb95c2",
+      "token_start": 79,
+      "token_end": 97,
+      "token_count": 18,
+      "source": "local-starcoder-python",
+      "content_hash": "88dbee7d00ed63ded9104e27d6e62f90f71db507ab16c12531bc81223de175cb"
+    },
+    {
+      "doc_id": "274ff6c181bcfb02",
+      "token_start": 97,
+      "token_end": 115,
+      "token_count": 18,
+      "source": "local-starcoder-python",
+      "content_hash": "76d5085fbc9a9e28f0dfbe35c5780baa5a0ff57492be01f63e883c0d97345f07"
+    },
+    {
+      "doc_id": "324f78dcd89ee8a4",
+      "token_start": 115,
+      "token_end": 162,
+      "token_count": 47,
+      "source": "local-starcoder-python",
+      "content_hash": "e7d2ba44c80684c4c09714c4c148966d895cfc24dba67e53b16e8656b0b12828"
+    },
+    {
+      "doc_id": "b6816f81e6e15b4e",
+      "token_start": 162,
+      "token_end": 180,
+      "token_count": 18,
+      "source": "local-starcoder-python",
+      "content_hash": "6097732fe58183b1f4924ab92cf0083a534b6fef091a74eeb02283406a34170f"
+    },
+    {
+      "doc_id": "acd04e67e1e156b2",
+      "token_start": 180,
+      "token_end": 198,
+      "token_count": 18,
+      "source": "local-starcoder-python",
+      "content_hash": "19116dd0ceadc94ae12d954cb09707678457892ebe4b20de1c3d4b6abcdb1b9a"
+    },
+    {
+      "doc_id": "c84617b9b5595c65",
+      "token_start": 198,
+      "token_end": 216,
+      "token_count": 18,
+      "source": "local-starcoder-python",
+      "content_hash": "26eee8e95aa04ff3e68c733a21754e5d6f00e8801ef737499d7b408d1338a6ec"
+    },
+    {
+      "doc_id": "429708755ff18647",
+      "token_start": 216,
+      "token_end": 264,
+      "token_count": 48,
+      "source": "local-starcoder-python",
+      "content_hash": "03a360098a4d677cc5dce27f1df32c5be8cc7821bbc994fbf07942792ae124ac"
+    },
+    {
+      "doc_id": "522c39441cd7b844",
+      "token_start": 264,
+      "token_end": 294,
+      "token_count": 30,
+      "source": "local-starcoder-python",
+      "content_hash": "4abcb9c53951927f99e52165ede20b09f4f746b39f66c2f9bac919d6b7bcd23e"
+    },
+    {
+      "doc_id": "084171a40ec7e60c",
+      "token_start": 294,
+      "token_end": 312,
+      "token_count": 18,
+      "source": "local-starcoder-python",
+      "content_hash": "a45215dae44caf5a880a431a08b5cc3952f54220297c7c6aed72c78dc7eb1d94"
+    },
+    {
+      "doc_id": "1552888932df61dc",
+      "token_start": 312,
+      "token_end": 330,
+      "token_count": 18,
+      "source": "local-starcoder-python",
+      "content_hash": "ed7be8e2fa741d6da5a2c801ffb46147a927a9bde9f0b5cec2fce4d803f587d7"
+    }
+  ],
+  "total_tokens": 330,
+  "lane": "code",
+  "content_hash": "94760f77c84c7c9d55bdfcc1cb3fa08992a88734a68ed5db1ce46e45bd9bdb75",
+  "bin_path": "C:\\Users\\Tharun\\Desktop\\Desktop\\Personal\\Github-Main\\building-the-dataset\\submission_artifacts\\shards\\shard_code_0.bin",
+  "idx_path": "C:\\Users\\Tharun\\Desktop\\Desktop\\Personal\\Github-Main\\building-the-dataset\\submission_artifacts\\shards\\shard_code_0.idx",
+  "is_eval": false,
+  "created_at": "2026-08-05T10:24:23.640272",
+  "cleaning_pipeline_hash": "clean_v1_dedup_v1",
+  "contamination_status": "clean"
+}

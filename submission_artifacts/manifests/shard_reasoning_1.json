@@ -1,0 +1,95 @@
+{
+  "shard_id": "shard_reasoning_1",
+  "tokenizer_hash": "bb804b900d31e0511080e5e0a0379e19b7845922818416ebbe56a762b52d9bb0",
+  "documents": [
+    {
+      "doc_id": "9feca29dd78a4acb",
+      "token_start": 0,
+      "token_end": 31,
+      "token_count": 31,
+      "source": "local-open-web-math",
+      "content_hash": "c076a77e2e707ecee89557d2b0cc710f0ddfc77951e8172e384b6377b2bf6b63"
+    },
+    {
+      "doc_id": "eddaca263f45f902",
+      "token_start": 31,
+      "token_end": 51,
+      "token_count": 20,
+      "source": "local-open-web-math",
+      "content_hash": "d16876640ff0cae4259dbba0f5a94681749b3b7c2337ac4b0da236ec70a352fa"
+    },
+    {
+      "doc_id": "e028b42de615dbdf",
+      "token_start": 51,
+      "token_end": 82,
+      "token_count": 31,
+      "source": "local-open-web-math",
+      "content_hash": "896a71da930ded7e0aa2a7cf8bc092486db99030c9696067348e07cb29f96000"
+    },
+    {
+      "doc_id": "7a1d26ab556e5d42",
+      "token_start": 82,
+      "token_end": 113,
+      "token_count": 31,
+      "source": "local-open-web-math",
+      "content_hash": "6eae59036bec133e292e666df4847cabdc0852759665be82ab9d1e29223f586f"
+    },
+    {
+      "doc_id": "df2cd9b22e0b2a36",
+      "token_start": 113,
+      "token_end": 144,
+      "token_count": 31,
+      "source": "local-open-web-math",
+      "content_hash": "15dedff83ef71ea04ab2b3f25a2b37c170dc10ced04c89e04151e9e277e0ed18"
+    },
+    {
+      "doc_id": "b16d0beb4625e614",
+      "token_start": 144,
+      "token_end": 184,
+      "token_count": 40,
+      "source": "local-open-web-math",
+      "content_hash": "f00467b74e5feedd12bcdc4fbb8813bbc8324c1448c856e54043c36a4f5a242c"
+    },
+    {
+      "doc_id": "2f6cb336fabbc05e",
+      "token_start": 184,
+      "token_end": 212,
+      "token_count": 28,
+      "source": "local-open-web-math",
+      "content_hash": "12ff79bfc0cfeb9373b84825b23b66664a91408e68c71e68d17ef20e917462c0"
+    },
+    {
+      "doc_id": "630d0de1f93db2aa",
+      "token_start": 212,
+      "token_end": 234,
+      "token_count": 22,
+      "source": "local-open-web-math",
+      "content_hash": "c308738866150914a5c7a097cd626d65726e58308fa230839ff3d089e733635c"
+    },
+    {
+      "doc_id": "1d74e0b4b062d60d",
+      "token_start": 234,
+      "token_end": 252,
+      "token_count": 18,
+      "source": "local-open-web-math",
+      "content_hash": "c7ef47217a80617ca9aa44e013f28654ad70d9b061dbe2cef7948ead06713a09"
+    },
+    {
+      "doc_id": "a5c85fe95b424b2b",
+      "token_start": 252,
+      "token_end": 283,
+      "token_count": 31,
+      "source": "local-open-web-math",
+      "content_hash": "b4001c4a19dba77b1906b2af53e85be70674b1ea4422226cc8e2b4040ba88405"
+    }
+  ],
+  "total_tokens": 283,
+  "lane": "reasoning",
+  "content_hash": "98735f0eacd8af0e61146854cd376084441752115b50d95bd8b65c6639fe77ac",
+  "bin_path": "C:\\Users\\Tharun\\Desktop\\Desktop\\Personal\\Github-Main\\building-the-dataset\\submission_artifacts\\shards\\shard_reasoning_1.bin",
+  "idx_path": "C:\\Users\\Tharun\\Desktop\\Desktop\\Personal\\Github-Main\\building-the-dataset\\submission_artifacts\\shards\\shard_reasoning_1.idx",
+  "is_eval": false,
+  "created_at": "2026-08-05T10:24:23.700025",
+  "cleaning_pipeline_hash": "clean_v1_dedup_v1",
+  "contamination_status": "clean"
+}
