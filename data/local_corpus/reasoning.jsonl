@@ -1,0 +1,25 @@
+{"text": "Mean Value Theorem: exists c with f'(c)=(f(b)-f(a))/(b-a) when f is continuous on [a,b] and differentiable on (a,b).", "source": "local-open-web-math"}
+{"text": "Master Theorem: T(n)=aT(n/b)+Theta(n^{log_b a}) yields Theta(n^{log_b a} log n).", "source": "local-open-web-math"}
+{"text": "Bayes: P(H|D)=P(D|H)P(H)/P(D). MAP maximizes the posterior density.", "source": "local-open-web-math"}
+{"text": "Cross-entropy loss is -log p(true token). Perplexity is exp of average loss.", "source": "local-open-web-math"}
+{"text": "Hoeffding bounds sample-mean deviation with high probability after O(log(1/delta)/eps^2) samples.", "source": "local-open-web-math"}
+{"text": "SVD yields best low-rank approximation in Frobenius and spectral norms.", "source": "local-open-web-math"}
+{"text": "Convex local minima are global; projection onto closed convex sets is unique.", "source": "local-open-web-math"}
+{"text": "Dijkstra finds shortest paths with nonnegative weights using a priority queue.", "source": "local-open-web-math"}
+{"text": "Knapsack DP: dp[i][w]=max(dp[i-1][w], v_i+dp[i-1][w-w_i]).", "source": "local-open-web-math"}
+{"text": "Picard-Lindelof gives unique local ODE solutions under Lipschitz conditions.", "source": "local-open-web-math"}
+{"text": "Claim 0: for n>=0, the sum 1+2+...+n equals n(n+1)/2 by induction.", "source": "local-open-web-math"}
+{"text": "Claim 1: for n>=1, the sum 1+2+...+n equals n(n+1)/2 by induction.", "source": "local-open-web-math"}
+{"text": "Claim 2: for n>=2, the sum 1+2+...+n equals n(n+1)/2 by induction.", "source": "local-open-web-math"}
+{"text": "Claim 3: for n>=3, the sum 1+2+...+n equals n(n+1)/2 by induction.", "source": "local-open-web-math"}
+{"text": "Claim 4: for n>=4, the sum 1+2+...+n equals n(n+1)/2 by induction.", "source": "local-open-web-math"}
+{"text": "Claim 5: for n>=5, the sum 1+2+...+n equals n(n+1)/2 by induction.", "source": "local-open-web-math"}
+{"text": "Claim 6: for n>=6, the sum 1+2+...+n equals n(n+1)/2 by induction.", "source": "local-open-web-math"}
+{"text": "Claim 7: for n>=7, the sum 1+2+...+n equals n(n+1)/2 by induction.", "source": "local-open-web-math"}
+{"text": "Claim 8: for n>=8, the sum 1+2+...+n equals n(n+1)/2 by induction.", "source": "local-open-web-math"}
+{"text": "Claim 9: for n>=9, the sum 1+2+...+n equals n(n+1)/2 by induction.", "source": "local-open-web-math"}
+{"text": "Claim 10: for n>=10, the sum 1+2+...+n equals n(n+1)/2 by induction.", "source": "local-open-web-math"}
+{"text": "Claim 11: for n>=11, the sum 1+2+...+n equals n(n+1)/2 by induction.", "source": "local-open-web-math"}
+{"text": "Claim 12: for n>=12, the sum 1+2+...+n equals n(n+1)/2 by induction.", "source": "local-open-web-math"}
+{"text": "Claim 13: for n>=13, the sum 1+2+...+n equals n(n+1)/2 by induction.", "source": "local-open-web-math"}
+{"text": "Claim 14: for n>=14, the sum 1+2+...+n equals n(n+1)/2 by induction.", "source": "local-open-web-math"}

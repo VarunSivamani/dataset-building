@@ -1,0 +1,25 @@
+{"text": "def pack_docs(docs, seq_len, eos):\n    out = []\n    cur = []\n    for d in docs:\n        if len(cur) + len(d) + 1 > seq_len:\n            out.append(cur)\n            cur = []\n        cur.extend(d + [eos])\n    if cur:\n        out.append(cur)\n    return out\n", "source": "local-starcoder-python"}
+{"text": "class ShardStore:\n    def __init__(self, path):\n        self.bin = path + '.bin'\n        self.idx = path + '.idx'\n\n    def write(self, tokens):\n        import numpy as np\n        np.asarray(tokens, dtype=np.uint32).tofile(self.bin)\n", "source": "local-starcoder-python"}
+{"text": "def causal_mask(n):\n    import numpy as np\n    return np.tril(np.ones((n, n), dtype=np.int32))\n", "source": "local-starcoder-python"}
+{"text": "def opus_decide(score, floor_override=False):\n    if floor_override:\n        return 'ACCEPT'\n    return 'ACCEPT' if score > 0.2 else 'REJECT'\n", "source": "local-starcoder-python"}
+{"text": "def save_rng():\n    import random\n    import numpy as np\n    return {'py': random.getstate(), 'np': np.random.get_state()}\n", "source": "local-starcoder-python"}
+{"text": "class Adam:\n    def __init__(self, w, lr=1e-3):\n        self.w = w\n        self.m = 0 * w\n        self.v = 0 * w\n        self.t = 0\n        self.lr = lr\n\n    def step(self, g):\n        self.t += 1\n        self.m = 0.9 * self.m + 0.1 * g\n        self.v = 0.999 * self.v + 0.001 * (g * g)\n        self.w -= self.lr * self.m / (self.v ** 0.5 + 1e-8)\n", "source": "local-starcoder-python"}
+{"text": "def verify_replay(a, b):\n    keys = ['input_ids', 'loss_mask', 'attention_mask', 'position_ids', 'doc_ids', 'token_spans']\n    return all(a[k] == b[k] for k in keys)\n", "source": "local-starcoder-python"}
+{"text": "def admission(manifest, tok_hash, eval_ids):\n    if manifest['tokenizer_hash'] != tok_hash:\n        return False\n    if manifest['shard_id'] in eval_ids:\n        return False\n    return True\n", "source": "local-starcoder-python"}
+{"text": "def efficiency(loss_mask):\n    useful = sum(sum(row) for row in loss_mask)\n    total = len(loss_mask) * len(loss_mask[0])\n    return useful / total if total else 0.0\n", "source": "local-starcoder-python"}
+{"text": "def interpolate(w0, w1, alpha):\n    return {k: (1 - alpha) * w0[k] + alpha * w1[k] for k in w0}\n", "source": "local-starcoder-python"}
+{"text": "def helper_0(x):\n    return x * 0 + 0\n", "source": "local-starcoder-python"}
+{"text": "def helper_1(x):\n    return x * 1 + 1\n", "source": "local-starcoder-python"}
+{"text": "def helper_2(x):\n    return x * 2 + 2\n", "source": "local-starcoder-python"}
+{"text": "def helper_3(x):\n    return x * 3 + 3\n", "source": "local-starcoder-python"}
+{"text": "def helper_4(x):\n    return x * 4 + 4\n", "source": "local-starcoder-python"}
+{"text": "def helper_5(x):\n    return x * 5 + 5\n", "source": "local-starcoder-python"}
+{"text": "def helper_6(x):\n    return x * 6 + 6\n", "source": "local-starcoder-python"}
+{"text": "def helper_7(x):\n    return x * 7 + 7\n", "source": "local-starcoder-python"}
+{"text": "def helper_8(x):\n    return x * 8 + 8\n", "source": "local-starcoder-python"}
+{"text": "def helper_9(x):\n    return x * 9 + 9\n", "source": "local-starcoder-python"}
+{"text": "def helper_10(x):\n    return x * 10 + 10\n", "source": "local-starcoder-python"}
+{"text": "def helper_11(x):\n    return x * 11 + 11\n", "source": "local-starcoder-python"}
+{"text": "def helper_12(x):\n    return x * 12 + 12\n", "source": "local-starcoder-python"}
+{"text": "def helper_13(x):\n    return x * 13 + 13\n", "source": "local-starcoder-python"}
+{"text": "def helper_14(x):\n    return x * 14 + 14\n", "source": "local-starcoder-python"}

@@ -1,0 +1,25 @@
+{"text": "The transformer architecture is the foundation of modern LLMs. Self-attention models long-range dependencies without recurrence.", "source": "local-fineweb-edu"}
+{"text": "Curriculum learning schedules data by difficulty. Early stages prefer clean text; annealing reserves high-value examples.", "source": "local-fineweb-edu"}
+{"text": "Tokenization maps text to IDs. A frozen tokenizer hash guarantees identical encodings across runs.", "source": "local-fineweb-edu"}
+{"text": "Data contamination occurs when eval examples leak into training. Content hashes and firewalls prevent this.", "source": "local-fineweb-edu"}
+{"text": "Packing fills fixed-length sequences with useful tokens. Document boundaries use EOS markers.", "source": "local-fineweb-edu"}
+{"text": "A consumption ledger records every batch. Ledger offsets enable crash recovery and historical replay.", "source": "local-fineweb-edu"}
+{"text": "Gradient accumulation simulates larger batches. Global batch equals microbatch times accumulation times GPUs.", "source": "local-fineweb-edu"}
+{"text": "Checkpoints must bind model weights to dataloader state including RNG and ledger offsets.", "source": "local-fineweb-edu"}
+{"text": "OPUS scores candidate batches. Protected floors can override rejection for scarce lanes.", "source": "local-fineweb-edu"}
+{"text": "Useful loss-bearing tokens per second is the key dataloader throughput metric.", "source": "local-fineweb-edu"}
+{"text": "Immutable shards store token IDs. Content and tokenizer hashes seal meaning and payload.", "source": "local-fineweb-edu"}
+{"text": "Replay regenerates historical batches. Matching hashes prove exact reconstruction.", "source": "local-fineweb-edu"}
+{"text": "Deduplication uses exact hashing and MinHash for near-duplicates.", "source": "local-fineweb-edu"}
+{"text": "Loss masks mark gradient-bearing positions. Padding and BOS are excluded.", "source": "local-fineweb-edu"}
+{"text": "Prefetch hides storage latency while workers prepare the next batches.", "source": "local-fineweb-edu"}
+{"text": "Per-token perplexity reveals localized difficulty hidden by shard averages.", "source": "local-fineweb-edu"}
+{"text": "Validation shards may be read but never become gradient-bearing data.", "source": "local-fineweb-edu"}
+{"text": "Long-context training is expensive; unused positions waste high-value compute.", "source": "local-fineweb-edu"}
+{"text": "License and provenance metadata travel with every admitted shard.", "source": "local-fineweb-edu"}
+{"text": "A learning ledger links loss outcomes back to source shards for V6 planning.", "source": "local-fineweb-edu"}
+{"text": "Microbatches are per-GPU units; ledgers reconstruct every unit inside a step.", "source": "local-fineweb-edu"}
+{"text": "Deterministic ordering from seed plus append-only ledgers handle messy restarts.", "source": "local-fineweb-edu"}
+{"text": "Mixture targets allocate budget across code, reasoning, Indic, and English lanes.", "source": "local-fineweb-edu"}
+{"text": "RoPE encodings rotate queries and keys by position; batch position IDs must match.", "source": "local-fineweb-edu"}
+{"text": "Forking starts a new ledger branch from an earlier checkpoint with explicit divergence.", "source": "local-fineweb-edu"}
